@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'wintersoulregular';
+  src: url('/CSS/fonts/Wintersoul.ttf');
+}
+@font-face {
+  font-family: 'Valkyrie';
+  src: url('/CSS/fonts/Valkyrie-BoldExtended.ttf');
+}
+
+/*Header ------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+.logo p {
+  font-size: 50px;
+  color: black;
+}
+
+#pure {
+  font-family: 'wintersoulregular';
+  font-style: italic;
+}
+
+#hands {
+  color: green;
+  font-family: 'Valkyrie';
+  font-weight: lighter;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  color: #555;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header {
+  background-color: #f8f8de;
+}
+
+.categories {
+  margin: 70px 0;
+}
+
+/* main content styles -----------------*/
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 20px auto;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 20px auto;
+  justify-content: center;
+}
+input {
+  /* display: block; */
+  padding: 8px 16px;
+  font-size: 2em;
+  margin: 10px auto;
+  /* width: 100%; */
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 3px solid #ccc;
+  outline: none !important;
+}
+
+.buttons {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 8px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  transition: background 0.5s;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.add-cart-btn:hover {
+  background-color: #1f361e;
+  color: #fff;
+}
+
+input.valid {
+  border-color: #36cc36;
+}
+
+input.invalid {
+  border-color: red;
+}
+
+input + p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 10px;
+  color: red;
+  opacity: 0;
+  height: 0;
+}
+
+input.invalid + p {
+  opacity: 1;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#submit {
+  background-color: #36cc36;
+  color: white;
+  border: none;
+  width: 40%;
+}
+
+#reset {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 40%;
+}
+
+.message{
+  height: 60px;
+}
+
+/* Footer ------------------------------*/
+
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.footer p {
+  color: #8a8a8a;
+}
+.footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+  min-width: 250px;
+}
+
+.footer-col-1 {
+  text-align: center;
+}
+
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+
+.footer-col-4 ul {
+  display: inline-block;
+}
+
+.footer-col-4 ul li {
+  display: inline-block;
+  padding: 3px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+.app-logo {
+  margin-top: 20px;
+  width: 50%;
+  font-size: 16px;
+  display: inline-block;
+}
+.footer-col-1 ul li {
+  display: inline-block;
+}
+.app-logo img {
+  width: 14px;
+  margin: 2px;
+}
+
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright {
+  text-align: left;
+}
+
+#row-1 {
+  display: none;
+}
