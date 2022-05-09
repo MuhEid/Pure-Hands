@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'wintersoulregular';
-  src: url('/CSS/fonts/Wintersoul.ttf');
+  src: url('./fonts/Wintersoul.ttf');
 }
 @font-face {
   font-family: 'Valkyrie';
-  src: url('/CSS/fonts/Valkyrie-BoldExtended.ttf');
+  src: url('./fonts/Valkyrie-BoldExtended.ttf');
 }
 
 /*Header ------------------------------*/
