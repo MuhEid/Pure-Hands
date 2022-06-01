@@ -1,12 +1,25 @@
 # Pure Hands
 
-
-## Screenshot
-
-![](./Screenshot%202022-06-01%20at%2018-14-42%20Pure%20Hands.png)
-
 ## Description  
-Pure Hands is an online Shop for Macrame and other handmade products. Macrame is a decorative object that is handmade by my fiancée. It is widley used in an internal design theme called the bohemian style. You can review all the different designs, make an order, and track it, pay online or contact us directly. 
+Pure Hands is an online Shop for Macrame and other handmade products. 
+
+Macrame is a decorative object that is handmade by my fiancée. It is widley used in an internal design theme called the bohemian style. You can review all the different designs, make an order, and track it, pay online or contact us directly. 
+
+## Overview
+
+### Screenshot
+
+![](./Screenshot%202022-06-01%20at%2018-21-21%20Pure%20Hands.png)
+
+
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
 
 ## How to run
 
