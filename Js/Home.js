@@ -1,3 +1,12 @@
+import '../CSS/Home.css'
+
+import '../assets/table1.jpg'
+import '../assets/table2.jpg'
+import '../assets/table3.jpg'
+import '../assets/table4.jpg'
+import '../assets/cart.png'
+
+
 // slide show
 
 function makeSlideShow(slidesId) {
@@ -129,7 +138,7 @@ function showAllContent() {
 }
 
 let tablesShow = document.querySelector('.table-btn');
-tablesShow.addEventListener('click', () =>{
+tablesShow.addEventListener('click', () =>{ 
   showContent()
 })
 let b;
@@ -173,4 +182,9 @@ goToTopBtn.onclick = function () {
   window.scrollTo(0, 0);
 };
 // console.log(goToTopBtn)
+
+// import '../CSS/about.css'
+// import '../CSS/contact.css'
+
+// import './collection'
 
